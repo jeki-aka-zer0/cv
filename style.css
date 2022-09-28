@@ -1,0 +1,48 @@
+body {
+    background: #fff;
+    color: #222;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 25px 0 5px;
+}
+
+h3 {
+    margin: 20px 0 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+ul ul {
+    padding: 0 0 0 25px;
+}
+
+time {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.gray {
+    color: #757575;
+}
+
+.row {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px; /* Close to A4 210mm */
+}
+
+.column {
+    flex: 50%;
+    /*outline: 1px solid salmon;*/
+    padding: 10px;
+}
